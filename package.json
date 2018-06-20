@@ -1,0 +1,27 @@
+{
+  "name": "adelaide",
+  "version": "1.0.0",
+  "description": "adelaide psycho website",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.3",
+    "font-awesome": "4.7.0",
+    "jquery": "3.3.1",
+    "jquery.easing": "^1.4.1",
+    "path": "^0.12.7"
+  },
+  "devDependencies": {
+    "browser-sync": "2.24.3",
+    "gulp": "^3.9.1",
+    "gulp-clean-css": "3.9.4",
+    "gulp-header": "2.0.5",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "4.0.1",
+    "gulp-uglify": "3.0.0"
+  }
+}
