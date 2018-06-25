@@ -196,6 +196,21 @@ a:focus, a:hover {
   height: 100vh;
 }
 
+.children-section {
+  background-color: grey;
+  height: 100vh
+}
+
+.teenage-section {
+  background-color: white;
+  height: 100vh
+}
+
+.adult-section {
+  background-color: red;
+  height: 100vh
+}
+
 .button-section {
   display: flex;
   flex-direction: row;
