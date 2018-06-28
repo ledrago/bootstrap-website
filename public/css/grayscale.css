@@ -197,17 +197,17 @@ a:focus, a:hover {
 }
 
 .children-section {
-  background-color: grey;
+  background-color: black;
   height: 100vh
 }
 
 .teenage-section {
-  background-color: white;
+  background-color: black;
   height: 100vh
 }
 
 .adult-section {
-  background-color: red;
+  background-color: black;
   height: 100vh
 }
 
