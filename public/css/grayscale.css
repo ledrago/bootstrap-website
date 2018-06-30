@@ -117,6 +117,14 @@ a:focus, a:hover {
   }
 }
 
+.img-container {
+  height: 80%;
+}
+
+.img-container img {
+  height: 70%;
+}
+
 .masthead {
   display: table;
   width: 100%;
@@ -221,8 +229,10 @@ a:focus, a:hover {
   height: 100px;
   width: 100px;
   border-radius: 100%;
-  background-color: red;
-  text-align: center; 
+  background-color: lightgray;
+  text-align: center;
+  border: none;
+  box-shadow:  10px 11px 34px 0px rgba(0,0,0,0.75);
 }
 
 #map {
