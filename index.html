@@ -26,7 +26,7 @@
   <body id="page-top">
 
     <!-- Navigation -->
-    <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+    <nav class="navbar navbar-expand-lg navbar-shrink navbar-light fixed-top" id="mainNav">
       <div class="container">
         <a class="navbar-brand js-scroll-trigger" href="#page-top">Adelaïde Luciani - Psychologue Clinicienne</a>
         <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
@@ -55,9 +55,11 @@
         <div class="container">
           <div class="row">
             <div class="col-lg-8 mx-auto">
-              <p class="intro-text"><cite><i>Un des plus profonds besoins des gens est d'etre completement entendu, 
-                totalement compris et entierement accepté.</i></cite></p>
+              <div class="intro-text-box">
+                <p class="intro-text"><cite><i>Un des plus profonds besoins des gens est d'être completement entendu, 
+                    totalement compris et entierement accepté.</i></cite></p>
                 <p>Carl Rogers</p>
+              </div>
               <a href="#about" class="btn btn-circle js-scroll-trigger">
                 <i class="fa fa-angle-double-down animated"></i>
               </a>
@@ -82,9 +84,9 @@
                 Je prends en Charge les enfants, adolescents et adultes dans une approche intégrative et humaniste. Je propose des thérapies classiques ainsi que de l'EMDR (Eyes Movement desensitization and reprocessing).
                 Je me forme également en musicothérapie, une approche qui peut s'avérer très efficace dans les cas de difficultés à communiquer ou de problématiques corporelles.
                 </p>
-            <p>Mes diplômes sont enregistrés sur le répertoire ADELI de l'Agence Régionale de Santé.
+            <p class="ref-text">Mes diplômes sont enregistrés sur le répertoire ADELI de l'Agence Régionale de Santé.
                 N° ADELI : 319 328 043</p>
-            <p>Mon activité est déclarée et inscrite au Répertoire des Entreprises et des Etablissements.
+            <p class="ref-text">Mon activité est déclarée et inscrite au Répertoire des Entreprises et des Etablissements.
                 N° SIREN : 839 552 551</p>
                 <a href="#download" class="btn btn-circle js-scroll-trigger">
                   <i class="fa fa-angle-double-down animated"></i>
@@ -98,9 +100,11 @@
     <section id="download" class="download-section content-section text-center">
       <div class="container">
         <div class="col-lg-8 mx-auto">
-          <h2>Pourquoi consulter ?</h2>
-          <p><cite>«Il existe un curieux paradoxe : quand je m’accepte tel que je suis, alors je peux changer. » </cite><span>Carl Rogers</span></p>
-          <p>Un événement douloureux, un mal être que l'on ne comprend pas, une situation difficile... Il existe bien des raisons d'aller consulter un psychologue. </p>
+          <div class="intro-text-box">
+            <h2>Pourquoi consulter ?</h2>
+            <p><cite>«Il existe un curieux paradoxe : quand je m’accepte tel que je suis, alors je peux changer. » </cite><span>Carl Rogers</span></p>
+            <p>Un événement douloureux, un mal être que l'on ne comprend pas, une situation difficile... Il existe bien des raisons d'aller consulter un psychologue. </p>
+          </div>
           <div class="button-section">
               <a href="#children" class="js-scroll-trigger"><button class="button-consult">Enfants</button></a>
               <a href="#teenage" class="js-scroll-trigger"><button class="button-consult">Adolescents</button></a>
@@ -113,7 +117,13 @@
     <!-- Children Section -->
     <section id="children" class="children-section content-section">
       <div class="container">
-        <div class="col-lg-10 mx-auto">
+        <div class="row">
+          <div class="col-lg-6 mx-auto children-img">
+            <div class="img-container">
+              <img src="./static/img/toy.jpg" alt="">
+            </div>
+          </div>
+        <div class="col-lg-5 mx-auto">
           <h2>Les enfants</h2>
           <ul><li>Difficultés sociales et relationnelle : inhibition, difficulté à communiquer, à se séparer..)</li>
             <li>Problématiques comportementales (agitation, opposition, colères, agressivité...)</li>
@@ -121,12 +131,13 @@
             <li>Difficultés alimentaires</li>
             <li>Etats d'anxiété et manifestations somatiques (eczéma, troubles du sommeil, énurésie)</li>
           </ul>
-        </div>
-        <div class="col-lg-10 mx-auto text-center">
+          <div class="text-center">
             <a href="#teenage" class="btn btn-circle js-scroll-trigger">
                 <i class="fa fa-angle-double-down animated"></i>
               </a>
         </div>
+        </div>
+      </div>
       </div>
     </section>
 
@@ -134,7 +145,13 @@
     <!-- Tennage Section -->
     <section id="teenage" class="teenage-section content-section">
       <div class="container">
-        <div class="col-lg-10 mx-auto">
+        <div class="row">
+        <div class="col-lg-6 children-img">
+            <div class="img-container">
+              <img src="./static/img/smartphone.jpg" alt="">
+            </div>
+          </div>
+        <div class="col-lg-5 mx-auto">
           <h2>Les adolescents</h2>
           <ul><li>conduites agressives envers soi ou autrui (colères, attaque de son corps...)</li>
             <li>Difficultés identitaires (difficulté à s'approprier son corps, à découvrir et accepter son orientation
@@ -146,19 +163,26 @@
             <li>difficultés relationnelles (Isolement, difficulté à communiquer, inhibition...)</li>
             <li>Etats d'anxiété et manifestations somatiques (eczéma, troubles du sommeil...)</li>
           </ul>
-        </div>
-        <div class="col-lg-10 mx-auto text-center">
+          <div class="text-center">
             <a href="#adult" class="btn btn-circle js-scroll-trigger">
                 <i class="fa fa-angle-double-down animated"></i>
               </a>
         </div>
+        </div>
+      </div>
       </div>
     </section>
 
     <!-- Adult Section -->
     <section id="adult" class="adult-section content-section">
       <div class="container">
-        <div class="col-lg-10 mx-auto">
+        <div class="row">
+        <div class="col-lg-6 children-img">
+            <div class="img-container">
+              <img class="adult-img" src="./static/img/hourglass.jpg" alt="">
+            </div>
+          </div>
+        <div class="col-lg-5 mx-auto">
           <h2>Les adultes</h2>
           <ul><li>Troubles somatiques</li>
             <li>Etat dépressif (isolement, repli sur soi...)</li>
@@ -167,12 +191,13 @@
             <li>conduites addictives (alcool, sexe, substance, jeux divers)</li>
             <li>epreuves de vie (deuils, séparation, traumas)</li>
           </ul>
-        </div>
-        <div class="col-lg-10 mx-auto text-center">
+          <div class="text-center">
             <a href="#contact" class="btn btn-circle js-scroll-trigger">
                 <i class="fa fa-angle-double-down animated"></i>
               </a>
         </div>
+        </div>
+      </div>
       </div>
     </section>
 
@@ -184,11 +209,14 @@
             <h2>Prise de rendez-vous et contact</h2>
             <p>Le cabinet se situe au centre de Toulouse, au 13 rue Albert Lautmann.
               Depuis la place du capitole, empruntez la rue des lois puis tournez à gauche.</p>
-              <ul>
+               <ul>
                 <li>Mail: adelaideluciani@gmail.com</li>
+                <li>Cabinet: 13 rue Albert Lautmann, 31000 Toulouse</li>
                 <li>Tel: 06 22 89 73 69</li>
+                <li>Tarifs: Merci de me consulter pour plus de renseignements</li>
               </ul>
-            <ul class="list-inline banner-social-buttons">
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2888.9750989384415!2d1.4373634154962402!3d43.607060079122974!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12aebb60ded60619%3A0xb9d7c27d09ccddd8!2s13+Rue+Albert+Lautmann%2C+31000+Toulouse!5e0!3m2!1sfr!2sfr!4v1530646081110" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+           <!-- <ul class="list-inline banner-social-buttons">
               <li class="list-inline-item">
                 <a href="https://twitter.com/SBootstrap" class="btn btn-default btn-lg">
                   <i class="fa fa-twitter fa-fw"></i>
@@ -207,14 +235,11 @@
                   <span class="network-name">Google+</span>
                 </a>
               </li>
-            </ul>
+            </ul> -->
           </div>
         </div>
       </div>
     </section>
-
-    <!-- Map Section -->
-    <div id="map"></div>
 
     <!-- Footer -->
     <footer>
